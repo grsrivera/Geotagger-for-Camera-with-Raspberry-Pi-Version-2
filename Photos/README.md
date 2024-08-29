@@ -1,0 +1,1 @@
+Drop the photos to be geotagged here before running exif.py.

@@ -1,0 +1,1 @@
+The pkl file with geotags made by exif.py will be saved to this folder.
