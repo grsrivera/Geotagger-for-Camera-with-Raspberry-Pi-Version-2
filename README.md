@@ -70,7 +70,7 @@ As you can see, the drift is minor with the camera increasing by a second faster
 **8. Run exif.py.** The EXIF data gets populated with a printout for each photo.
 
 ### Limitations
-**1. Satellite Coverage:** As with any system that requires GPS satellite input, the accuracy of the data or even the existence of the data at all will depend on if line-of-sight can be maintained between the u-blox module and at least four satellites. 
+**1. Satellite Coverage:** As with any system that requires GPS satellite input, the accuracy of the data or even the existence of the data at all will depend on if line-of-sight can be maintained between the u-blox module and at least four satellites. <br>
 **2. Error Accuracy:** This geotagger can be used with any camera; however, every camera will have its own delta time with GMT, and exif.py only accounts for my Fuji X100T's delta time. For a different camera to be used, a scatterplot of its delta time must be made then the best-fit line applied to exif.py. Or, which is what I did with my brother's photos in the picture, comment out the delta time block of exif.py and accept that there will be error. But as mentioned above in the "Time Error" section, I would only be concerned with this if my brother had taken pictures in a car or if we had been out hiking for several more days without syncing to GPS time.
 
 ## Contact
